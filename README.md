@@ -49,6 +49,13 @@ jupyter notebook notebooks/prediccion_precios.ipynb
 - Pipeline: MinMaxScaler --> SVR
 - Rendimiento: RMSE = 0.172 (escala logarítmica)
 
+
+## 🙌🏻 Autores
+
+- Tomás Fonta
+- Gonzalo Villar
+- Carlos Sainz
+
 ## 📄 Licencia
 
 MIT License – Siéntete libre de usarlo, modificarlo o adaptarlo con cariño 😄
