@@ -1,4 +1,4 @@
-# Prediccion-Precio-Viviendas - Proyecto Machine Learning
+# Predicción-Precio-Viviendas - Proyecto Machine Learning
 
 ## 📌 Descripción del proyecto
 Este proyecto predice precios de venta de viviendas utilizando técnicas de machine learning. Incluye preprocesamiento de datos, ingeniería de características y un modelo SVR optimizado que logra un RMSE de 0.172 (escala logarítmica).
@@ -26,7 +26,7 @@ pip install -r requirements.txt
 jupyter notebook notebooks/prediccion_precios.ipynb
 ```
 
-📂 Estructura del Repositorio
+## 📂 Estructura del Repositorio
 
 - train_split.csv --> Datos de entrenamiento (1841 registros)
 - test_kaggle.csv --> Datos de prueba (461 registros)
@@ -34,7 +34,7 @@ jupyter notebook notebooks/prediccion_precios.ipynb
 - prediccion_precios.ipynb --> Código completo del proyecto
 
 
-🔧 Preprocesamiento de Datos
+## 🔧 Preprocesamiento de Datos
 
 - Manejo de valores faltantes
 - Transformación logarítmica
@@ -43,13 +43,13 @@ jupyter notebook notebooks/prediccion_precios.ipynb
 - Selección de 13 características predictivas clave
 
 
-🤖 Implementación del modelo
+## 🤖 Implementación del modelo
 
 - Algoritmo: Support Vector Regression (SVR)
 - Pipeline: MinMaxScaler --> SVR
 - Rendimiento: RMSE = 0.172 (escala logarítmica)
 
-📄 Licencia
+## 📄 Licencia
 
 MIT License – Siéntete libre de usarlo, modificarlo o adaptarlo con cariño 😄
 
