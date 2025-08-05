@@ -26,6 +26,12 @@ Este proyecto predice precios de venta de viviendas utilizando técnicas de mach
 - Pipeline: MinMaxScaler --> SVR
 - Rendimiento: RMSE = 0.172 (escala logarítmica)
 
+## 📈 Resultado Final
+
+- Las predicciones fuera revertidas del espacio logarítmico.
+- Se generó archivo submission.csv con columnas:
+    - Id
+    - SalePrice (predicho)
 
 ## 🙌🏻 Autores
 
